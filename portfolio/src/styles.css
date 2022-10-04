@@ -1,1 +1,106 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* NAVBAR */
+.navbar.navbar-expand-lg.navbar-dark {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #000000, #434343);
+    background: linear-gradient(to right, #000000, #434343); 
+}
+.bi.bi-facebook,.bi.bi-github {
+    color: #c7cfd2;
+}
+.bi.bi-facebook:hover,.bi.bi-github:hover {
+    color: #f7f7f7;
+}
+.bi.bi-person-workspace,.bi.bi-box-arrow-right:hover {
+    color: #8bbdc9;
+}
+.bi.bi-person-workspace:hover,.bi.bi-box-arrow-right {
+    color: #ecbd3b;
+}
+
+/* MODALES */
+.modal-content {
+    background: #d8dadd;
+}
+.modal-header {
+    background: #004e92;
+    background: -webkit-linear-gradient(to right, #004e92, #4577a2);
+    background: linear-gradient(to right, #004e92, #4577a2);
+    color: #f7f7f7;
+}
+.btn.btn-primary{
+    background-color: #0296c8;
+    border-color: #0083B0;
+    color:#000000
+}
+.btn.btn-primary:hover{
+    background-color: #00B4DB;
+    border-color: #00B4DB;
+    color:#000000
+}
+.btn.btn-warning{
+    background-color: #ecbd3b;
+}
+
+/* PORTFOLIO */
+#about {
+    border-radius: 1%;
+    border-color: #434343;
+    border-width: 15px;
+    background: #d8dadd;
+}
+#cv {
+    background: #6b4343;
+    background: -webkit-linear-gradient(to top, #d8dadd, #858889);
+    background: linear-gradient(to top, #d8dadd, #858889);
+}
+.list-group-item {
+    background: none;
+}
+
+/* # HABILIDADES */
+* {box-sizing:border-box}
+.container {
+  width: 100%;
+  background-color:transparent; 
+}
+.skills {
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px;
+  color: white;
+}
+.html {
+    width: 75%; 
+    background-color: #015a78;
+}
+.css {
+    width: 70%; 
+    background-color: #0083B0;
+}
+.js {
+    width: 50%;
+    background-color: #029fca;
+}
+.py {
+    width: 50%; 
+    background-color: #02a6ca;
+}
+.sql {
+    width: 45%; 
+    background-color: #00B4DB;
+}
+
+/* DASHBOARD */
+.bi.bi-pencil-fill {
+    color: #0c511b;
+}
+.bi.bi-pencil-fill:hover {
+    color: #2e8741;
+}
