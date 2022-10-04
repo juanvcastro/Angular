@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PortfolioService } from 'src/app/services/portfolio.service';
 
 @Component({
   selector: 'app-navbar',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavbarComponent implements OnInit {
 
-  constructor() { }
+  /* Servicio inyectado en el componente */
+  constructor(private datos:PortfolioService) { }
+
 
   ngOnInit(): void {
+    /* Acceso al servicio */
+    this.datos.obtenerDatos();
   }
 
 }
