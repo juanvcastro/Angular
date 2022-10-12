@@ -12,5 +12,5 @@ export class EducacionComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  login = false;
+  login = true;
 }
